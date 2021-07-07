@@ -1,0 +1,370 @@
+
+body{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background-image: url("http://drive.google.com/uc?export=view&id=1XeuHKDfX83WkxY5fzwj9iu-S-Oqcauo3");
+  background-color: #cccccc;
+  background-attachment: fixed;
+}
+
+
+
+header{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #374250  ;
+}
+
+
+nav ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+nav ul li a{
+  text-decoration: none;
+
+}
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4vw;
+  width: 100%;
+
+}
+
+.Home_Titulos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.Home_Titulos h1{
+  font-weight: 700;
+  color: #7ECE49;
+}
+.Home_Titulos p{
+  font-size: 1.21em;
+}
+
+.imagen_telefono{
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+}
+
+.imagen_telefono img{
+  width: 60%;
+}
+
+
+.News{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 4vw;
+  width: 100%;
+  background-color: #7ECE49;
+}
+
+.textos_izquierda{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.textos_izquierda div{
+  padding-bottom: 10%;
+}
+
+.textos_izquierda h2{
+  font-weight: 700;
+  color: #ffffff;
+}
+.textos_izquierda p{
+  font-size: 1.21em;
+}
+
+.textos_izquierda div{
+  text-align: center;
+  color: #ffffff;
+
+
+}
+
+.planes{
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+.About label p{
+  text-align: center;
+}
+.imagen2{
+  display: flex;
+  justify-content: center;
+  
+  flex-grow: 2;
+}
+
+.imagen2 img{
+  width: 70%;
+
+}
+
+.textos_derecha{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  flex-grow: 1;
+
+}
+
+.textos_derecha div{
+  padding-bottom: 10%;
+}
+
+.textos_derecha h2{
+  font-weight: 700;
+  color: #ffffff;
+}
+.textos_derecha p{
+  font-size: 1.21em;
+  color: #ffffff;
+
+}
+
+.textos_derecha div{
+  text-align: center;
+  /**/
+  
+}
+
+
+.Contact{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4vw;
+  margin-bottom: 4vw;;
+  width: 100%;
+}
+
+
+
+
+.imagenes_tercero{
+  display: flex;
+  flex-grow: 4;
+  justify-content: space-around;
+}
+
+.imagen_free img{
+  width: 80%;
+}
+
+.imagen_premium img{
+  width: 80%;
+
+}
+
+.Contact_titulos{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  text-align: center;
+
+}
+
+.About{
+  
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  display: flex;  
+  justify-content: space-around;
+  background-color: orange;
+}
+
+.About label{
+  font-size:8vw;
+  background-color:rgba(255, 255, 255, 0.2);
+  border-radius: 1vw;
+}
+
+.seccion5{
+  padding-top: 6%;
+  padding-bottom: 6%;
+  display: flex;
+  flex-direction: column;
+  background-color: #00AAE4;
+}
+
+.seccion5_titulos{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.fotos{
+  display: flex;
+  flex-grow: 4;
+  justify-content: space-around;
+  
+}
+
+
+.seccion6{
+  padding-top: 3%;
+  padding-bottom: 5%;
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #7ECE49;
+
+}
+
+.informacion{
+  width: 34%;
+  height:45px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
+.mensaje{
+  width: 34%; 
+}
+
+.mensaje input{
+  width: 100%;
+  height:45px;
+  margin-top: 1vw;
+}
+
+footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  color: #cccccc;
+  background-color: #374250  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.referencias{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+@media (max-width: 850px) {
+  .Home{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .textos_izquierda{
+    order: 1;
+  }
+  .imagen2{
+    order: 2;
+  }
+
+  .textos_derecha{
+    order: 1;
+
+  }
+
+  .News{
+    flex-direction: column;
+
+  }
+
+  .fotos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imagenes_tercero{
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Contact_titulos{
+    order: 1;
+  
+  }
+
+
+  .Contact{
+    flex-direction: column;
+  }
+
+  .informacion{
+    flex-direction: column;
+  }
+
+  .informacion input{
+    height: 45px;
+  }
+
+  
+  }
+
+  @media (max-width: 600px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    .referencias{
+      width: 100%;
+    
+    }
+
+    .informacion{
+      width: 60%;
+      
+      
+    }
+    
+    
+    .mensaje{
+      width: 60%; 
+    }
+    
+
+    
+  }
